@@ -1,0 +1,23 @@
+.input {
+  width: 2.75rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+
+  border-radius: 0.437rem;
+  border: 2px solid #4F4FB9;
+  outline: none;
+
+  background: #EBEBFC;
+
+  padding: 1rem;
+
+  color: #6363db;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+
+  &::placeholder {
+    color: #6363db;
+    font-size: 1rem;
+  }
+}
